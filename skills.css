@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    background-color: #b47979;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(226, 204, 204)b8b;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #8b4646;
+    border: 1px solid #ab5959;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(214, 132, 132, 0.1);
+}
+
+i {
+    font-size: 40px;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.para {
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4d7087;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
